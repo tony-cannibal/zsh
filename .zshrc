@@ -18,6 +18,7 @@ compinit
 _comp_options+=(globdots)		# Include hidden files.
 
 source $ZDOTDIR/zsh_functions.sh
+unsetopt PROMPT_SP
 
 
 zsh_add_file vim-mode.sh
